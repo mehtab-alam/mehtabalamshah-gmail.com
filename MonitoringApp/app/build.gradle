@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+
+    defaultConfig {
+        applicationId "com.unibz.cockpit"
+        minSdkVersion 21
+        targetSdkVersion 28
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.github.Shashank02051997:FancyAlertDialog-Android:0.1'
+    implementation 'com.github.shrikanth7698:Custom-Navigation-Drawer:v0.0.1'
+    implementation files('libs/achartengine-1.2.0.jar')
+    implementation 'com.stephentuso:welcome:1.4.1'
+    implementation 'com.github.ashkanpower:easywebservice:b5f5874cb0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
+    implementation 'com.android.support:design:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-rc01'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.github.Philjay:MPAndroidChart:v3.1.0'
+    implementation 'com.ramijemli.percentagechartview:percentagechartview:0.3.1'
+    implementation 'com.github.ngallazzi:DigitalSpeedDashboard:master-SNAPSHOT'
+    implementation 'com.app.infideap.stylishwidget:stylish-widget:1.4.2-alpha'
+}

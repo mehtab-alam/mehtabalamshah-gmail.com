@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">COCkPiT</string>
+    <string name="hello_world"> Hallo Welt!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="email">E-Mail Id</string>
+    <string name="passowrd">Passwort</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Passwort anzeigen</string>
+    <string name="hide_pwd">Passwort verbergen</string>
+    <string name="forgot">Passwort vergessen?</string>
+    <string name="closebutton">Schließen-Taste für Activity</string>
+    <string name="newUser">Noch kein Mitglied? Melden Sie sich hier an.</string>
+    <string name="firstName">Vorname</string>
+    <string name="lastName">Nachname</string>
+    <string name="mobileNumber">Mobilnummer</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Passwort bestätigen</string>
+    <string name="terms_conditions">Mit dem Klick auf Anmelden erklären Sie sich mit allen Allgemeinen Geschäftsbedingungen einverstanden.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Bereits ein Konto? Melden Sie sich hier an.</string>
+    <string name="registered_emailid">Bitte gib deine registrierte E-Mail-ID unten ein:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="error_login">Geben Sie beide Zugangsdaten ein.</string>
+    <string name="error_signup">Alle Felder müssen ausgefüllt werden.</string>
+    <string name="error_email">Ihre E-Mail-ID ist ungültig.</string>
+    <string name="error_password_match">Beides Passwort stimmt nicht überein.</string>
+    <string name="error_terms">Bitte wählen Sie die Allgemeinen Geschäftsbedingungen aus.</string>
+    <string name="error_do_signup">Anmeldung durchführen.</string>
+    <string name="error_do_login">Login durchführen.</string>
+    <string name="signup_successful">Anmeldung erfolgreich</string>
+    <string name="user_exist">Benutzer ist bereits vorhanden</string>
+    <string name="login_success">Anmeldung erfolgreich</string>
+    <string name="credential_mismatch">Fehlende Übereinstimmung der Anmeldeinformationen</string>
+    <string name="welcome_dashboard_msg">Willkommen im %1$s Dashboard</string>
+    <string name="filter_text">Filtern</string>
+    <string name="liked_item">Gefallen</string>
+    <string name="no_data_available">Keine Daten verfügbar\n Zum Aktualisieren bitte nach unten wischen.</string>
+    <string name="progress">Fortschritte</string>
+    <string name="activity_progress">Fortschritt der Aktivität</string>
+    <string name="location_progress">Fortschritt nach Ort</string>
+    <string name="completed">% Abgeschlossen</string>
+    <string name="logout">Abmeldung</string>
+    <string name="open_text">Offen</string>
+    <string name="close_text">Schließen</string>
+    <string name="first_screen">Willkommen bei COCkPiT</string>
+    <string name="second_screen">Sie können alle verfügbaren COCkPiT-Bauprojekte sehen.</string>
+    <string name="third_screen">Projekt-Dashboard, um den Fortschritt des Projekts zu sehen.</string>
+    <string name="projects_title">COCkPiT Projekte</string>
+    <string name="dashboard_title">Eigenschaftenleiste</string>
+    <string name="close_app">Möchten Sie die Anwendung schließen? </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrechen</string>
+    <string-array name="spinner_filer">
+        <item>Alle</item>
+        <item>Gefallen</item>
+    </string-array>
+</resources>

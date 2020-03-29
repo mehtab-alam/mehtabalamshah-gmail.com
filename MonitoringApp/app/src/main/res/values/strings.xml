@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">COCkPiT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">Login</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="error_login">Enter both credentials.</string>
+    <string name="error_signup">All fields are required.</string>
+    <string name="error_email">Your Email Id is Invalid.</string>
+    <string name="error_password_match">Both password doesnt match.</string>
+    <string name="error_terms">Please select Terms and Conditions.</string>
+    <string name="error_do_signup">Do SignUp.</string>
+    <string name="error_do_login">Do Login.</string>
+    <string name="signup_successful">Signup Successful</string>
+    <string name="user_exist">User Already Exist</string>
+    <string name="login_success">Login Successful</string>
+    <string name="credential_mismatch">Credentials Mismatch</string>
+    <string name="welcome_dashboard_msg">Welcome to %1$s dashboard</string>
+    <string name="liked_item">Liked</string>
+    <string name="filter_text">Filter</string>
+    <string name="no_data_available">No Data Available\nPlease Swipe Down to Refresh</string>
+    <string name="progress">Progress</string>
+    <string name="activity_progress">Activity Progress</string>
+    <string name="location_progress">Progress by Location</string>
+    <string name="completed">% Completed</string>
+
+    <string name="open_text">Open</string>
+    <string name="close_text">Close</string>
+
+    <string name="projects_title">COCkPiT Projects</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="first_screen">Welcome to COCkPiT</string>
+    <string name="second_screen">You can see all avalaible COCkPiT construction projects</string>
+    <string name="third_screen">Project Dashboard to see the progress of Project</string>
+    <string name="logout">Logout</string>
+    <string name="close_app">Do you want to close the application?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="spinner_filer">
+        <item>All</item>
+        <item>Liked</item>
+    </string-array>
+
+</resources>

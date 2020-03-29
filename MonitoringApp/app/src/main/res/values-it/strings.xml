@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">COCkPiT</string>
+    <string name="hello_world">Ciao Mondo!</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">Login</string>
+    <string name="show_pwd">Mostra password</string>
+    <string name="hide_pwd">Nascondi password</string>
+    <string name="forgot">Password dimenticata?</string>
+    <string name="closebutton">Pulsante Chiudi per attività</string>
+    <string name="newUser">Non ancora un membro? Iscriviti qui.</string>
+    <string name="firstName">Cognome</string>
+    <string name="lastName">Cognome</string>
+    <string name="mobileNumber">Numero mobile</string>
+    <string name="location">Posizione</string>
+
+    <string name="confirmPassword">Conferma Password</string>
+    <string name="terms_conditions">Facendo clic su Iscriviti accetti tutti i Termini e Condizioni.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user"> Hai già un account? Accedi qui.</string>
+    <string name="registered_emailid">Inserisci il tuo indirizzo e-mail registrato qui sotto:</string>.
+    <string name="submit">SUBMIT</string>
+    <string name="back">indietro</string>
+    <string name="error_login">Inserisci entrambe le credenziali.</string>
+    <string name="error_signup">Tutti i campi sono obbligatori.</string>.
+    <string name="error_email">Il tuo ID e-mail non è valido.</string>.
+    <string name="error_password_match">Uno dei due password non corrisponde.</string>.
+    <string name="error_terms">Seleziona Termini e condizioni.</string>
+    <string name="error_do_signup">Do SignUp.</string>
+    <string name="error_do_login">Do Login.</string>
+    <string name="signup_successful">Firma di successo</string>
+    <string name="user_exist">Utente già esistente</string>
+    <string name="login_success">Accesso riuscito</string>
+    <string name="credential_mismatch">Mancata corrispondenza delle credenziali</string>
+    <string name="welcome_dashboard_msg">Benvenuto a %1$s dashboard</string>
+    <string name="liked_item">Piaciuto</string>
+    <string name="filter_text">Filtro</string>
+    <string name="no_data_available">Nessun dato disponibile \n Si prega di passare il dito verso il basso per rinfrescare</string>
+    <string name="progress">Progressi</string>
+    <string name="activity_progress">Progressi dell\'attività</string>
+    <string name="location_progress">Progressi per località</string>
+    <string name="completed">% Completato</string>
+    <string name="open_text">Aperto</string>
+    <string name="close_text">Chiudi</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="projects_title">Progetti COCkPiT</string>
+     <string name="first_screen">Benvenuto a COCkPiT</string>
+    <string name="logout">Logout</string>
+    <string name="close_app">Vuoi chiudere l\'applicazione?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+    <string name="second_screen">Puoi vedere tutti i progetti di costruzione COCkPiT disponibili</string>.
+    <string name="third_screen">Dashboard del progetto per vedere l\'avanzamento del progetto</string>.
+    <string-array name="spinner_filer">
+        <item>Tutti</item>
+        <item>Piaciuto</item>
+
+    </string-array>
+
+</resources>
