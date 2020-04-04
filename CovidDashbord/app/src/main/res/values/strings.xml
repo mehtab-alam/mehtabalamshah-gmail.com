@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">COVID-19 Meter</string>
+
+    <string name="country">Country</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="new_cases">New Cases</string>
+    <string name="total_deaths">Total Deaths</string>
+    <string name="new_deaths">New Deaths</string>
+    <string name="total_recovered">Total Recovered</string>
+    <string name="serious_critical">Serious/Critical</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="total_cases_million">Total Cases/1M</string>
+    <string name="total_deaths_million">Total Deaths/1M</string>
+    <string name="first_case">First Case</string>
+
+    <string name="covid_meter">Country Stats</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="map">Map</string>
+
+    <string name="main_title">COVID-19 CORONAVIRUS PANDEMIC</string>
+    <string name="coronca_casis">Corona Cases</string>
+    <string name="deaths">Deaths</string>
+    <string name="recovered">Recovered</string>
+
+    <string name="active_cases_title">Active Cases</string>
+    <string name="closed_cases_title">Closed Cases</string>
+
+    <string name="currently_infected">Infected</string>
+    <string name="mild_condition">Mild Condition</string>
+    <string name="critical">Serious</string>
+
+    <string name="outcome_cases">Outcome</string>
+    <string name="recovered_out">Recovered</string>
+    <string name="deaths_out">Deaths</string>
+
+    <string name="screen_1">Use Hand Sanitizer</string>
+    <string name="description_1">Sanitize your hands with hand sanitizer having 60-95% alcohol. </string>
+
+
+    <string name="screen_2">Wash Your Hands For 20sec</string>
+    <string name="description_2">Wash hands often with soap and water for at least 20 seconds.</string>
+
+    <string name="screen_3">Cover Nose When Sneezing</string>
+    <string name="description_3">Cover your mouth and nose with a tissue or your sleeve (not your hands) when coughing or sneezing.</string>
+
+    <string name="screen_4">Wear Mask if Available</string>
+    <string name="description_4">You should continue to use the surgical mask in all public places until you are advised.</string>
+
+    <string name="screen_5">Keep Social Distancing</string>
+    <string name="description_5">You can lower your risk of infection by reducing your rate of contact with other people.</string>
+
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_text"><![CDATA[<p align="justify">
+        COVID-19 Meter mobile application content is for information purposes including its data, information, text, graphics, and links.
+        The main information of COVID-19 novel Corona virus pandemic is taken from
+        <a href ="https://www.worldometers.info/coronavirus/#countries">https://www.worldometers.info/coronavirus/#countries</a>, <b>worldometer</b> have the copy right of all the information provided. For more information view disclaimer and privacy policy
+        <a href ="https://www.worldometers.info/disclaimer/">https://www.worldometers.info/disclaimer/</a>
+        </p>]]>
+    </string>
+    <string name="privacy_policy">privacy policy</string>
+
+</resources>

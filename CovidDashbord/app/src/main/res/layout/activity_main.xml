@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+            <com.app.feng.fixtablelayout.FixTableLayout
+                android:id="@+id/covidTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fixtable_divider_color="@color/table_divider_color"
+                app:fixtable_title_color="#C5CDEF"
+                app:fixtable_item_gravity="LEFT"
+                app:fixtable_divider_height="1dp"
+                app:fixtable_column_1_color="#FFFFFF"
+                app:fixtable_column_2_color="@color/pale_green"
+
+                app:fixtable_item_top_bottom_padding="8dp"
+                app:fixtable_item_width="105dp"
+                app:fixtable_show_left_view_shadow="true"
+                />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

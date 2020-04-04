@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/dark_blue"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="7dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cardRootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/helvetica"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/closed_cases_title" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/outcome_cases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helvetica"
+            android:textColor="@color/yellow"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/outcome_cases_tv"
+            app:layout_constraintStart_toStartOf="@+id/outcome_cases_tv"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/outcome_cases_tv"
+            style="@style/HeadingTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/outcome_cases"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/outcome_cases" />
+
+        <TextView
+            android:id="@+id/deathClosedCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helvetica"
+            android:textColor="@color/red"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/deathPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helvetica"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="@+id/textView5"
+            app:layout_constraintTop_toBottomOf="@+id/deathClosedCount"
+            tools:text="15%"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/HeadingTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/deaths"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/deathClosedCount" />
+
+        <TextView
+            android:id="@+id/recoveredClosedCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/helvetica"
+            android:textColor="@color/green"
+            android:textSize="19sp"
+            app:layout_constraintEnd_toEndOf="@+id/recovered_tv"
+            app:layout_constraintStart_toStartOf="@+id/recovered_tv"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            android:text="-"/>
+        <TextView
+            android:id="@+id/recoveredPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helvetica"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="@+id/recovered_tv"
+            app:layout_constraintStart_toStartOf="@+id/recovered_tv"
+            app:layout_constraintTop_toBottomOf="@+id/recoveredClosedCount"
+            tools:text="15%"/>
+
+        <TextView
+            android:id="@+id/recovered_tv"
+            style="@style/HeadingTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/recovered"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintStart_toEndOf="@+id/outcome_cases_tv"
+            app:layout_constraintTop_toBottomOf="@+id/recoveredClosedCount" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

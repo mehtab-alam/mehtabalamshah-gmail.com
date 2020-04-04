@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="light_green">#90EE90</color>
+    <color name="pale_green">#C7EBDF</color>
+
+    <color name="golden">#FFEEAA</color>
+    <color name="red">#FF0000</color>
+    <color name="table_divider_color">#b1b1b1</color>
+
+    <color name="red_100">#F44336</color>
+    <color name="red_300">#3F51B5</color>
+    <color name="red_500">#9C27B0</color>
+    <color name="red_700">#2196F3</color>
+    <color name="blue_100">#00BCD4</color>
+    <color name="blue_300">#7BAAF7</color>
+    <color name="blue_500">#009688</color>
+    <color name="blue_700">#3367D6</color>
+
+    <color name="green_300">#57BB8A</color>
+    <color name="green_500">#673AB7</color>
+    <color name="green_700">#0B8043</color>
+
+
+    <color name="critical">#f0d3de</color>
+    <color name="recovered">#CDDC39</color>
+    <color name="total_cases">#f0efd3</color>
+
+
+    <color name="yellow">#FFD900</color>
+    <color name="red_others">#F02A2A</color>
+    <color name="green">#22A981</color>
+    <color name="light_grey">#949BAA</color>
+    <color name="dark_blue">#030E25</color>
+
+    <color name="grey_header">#dfdfdf</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+</resources>
